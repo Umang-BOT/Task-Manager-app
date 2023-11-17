@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("cloud.jpg"); /* Replace with the path to your background image */
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+}
+
+.task-manager-app {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 35%;
+}
+
+.task-manager-app1 {
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 41%;
+  height: 50px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
